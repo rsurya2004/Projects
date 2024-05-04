@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    height: 70px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+header div img{
+    height: 40px;
+    width: 150px;
+    margin: 40px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+header div h2{
+    margin-right: 40px;
+    font-size: 40px;
+    width: 5px;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 380px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-weight: 500;
+}
+
+header nav ul li a:hover{
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+header button{
+    background-color: #ba0cc5;
+    height: 30px;
+    width: 100px;
+    border: none;
+    font-weight: 500;
+    padding: 2px;
+    color: white;
+    border-radius: 6px;
+}
+
+header button:hover{
+    cursor: pointer;
+    font-weight: 700;
+    height: 35px;
+    width: 110px;
+    font-size: 15px ;
+}
+
+main{
+    background-image: url("Assets/Background.png");
+    background-size: cover;    /* Covers whole space */
+    background-attachment: fixed;
+    height: 90vh;
+    text-align: center;
+    padding: 50px;
+}
+
+main h1{
+    margin: 15px;
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+}
+
+main p{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+main button{
+    color: white;
+    background-color: #ba0cc5;
+    height: 60px;
+    width: 200px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+main button:hover{
+    height: 65px;
+    width: 220px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
