@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    font-weight: 400;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 18px;
+}
+
+.logo{
+    margin-right: 60px;
+    cursor: pointer;
+    margin-left: 20px;
+    height: 50px;
+    background-color: #5955b3;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    margin-right: 414px;
+}
+
+header nav ul li{
+    margin: 0px 22px;
+    font-size: 22px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    font-weight: 700px;
+    font-size: 23px;
+}
+
+header button{
+    background-color: #5955b3;
+    border: none;
+    height: 40px;
+    width: 80px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    color: azure;
+    border-radius: 5px;
+}
+
+header button:hover{
+    font-weight: 700;
+    cursor: pointer;
+    width: 90px;
+    height: 45px;
+    font-size: 15px;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+}
+
+.Main-Left-Section{
+    margin-left: 10px;
+    margin-top: 10px;
+    /* Fonts */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+main section h1{
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+span{
+    color: #5955b3;
+}
+
+p{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+main section button{
+    margin-left: 20px;
+    color: azure;
+    background-color: #5955b3;
+    font-weight: 400;
+    font-size: 20px;
+    height: 35px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+}
+
+main section button:hover{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 25px;
+    height: 38px;
+    width: 220px;
+}
+
+.Main-Right-Section{
+    margin-left: 17px;
+}
+
+main section div img{
+    height: 460px;
+    width: 640px;
+    cursor: pointer;
+}
+
