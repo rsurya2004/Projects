@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0.4%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(16, 15, 15);
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 110px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+}
+
+.bluetooth{
+    margin-left: 120px;
+}
+
+.mic{
+    margin-left: 120px;
+}

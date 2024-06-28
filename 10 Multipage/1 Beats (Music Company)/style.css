@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0.4%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(16, 15, 15);
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 400px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(236, 240, 244);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header div button{
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(32, 31, 31);
+    border-color: rgb(43, 40, 40);
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+header div button:hover{
+    font-size: 20px;
+    height: 45px;
+    width: 145px;
+}
+
+
+
+.mainImage1{
+    height: 590px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: -80px;
+}
+
+.mainImage2{
+    height: 100px; 
+    width: 500px; 
+}
+
+.main{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+}
+
+main div{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main div button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    background-color: rgb(32, 31, 31);
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main div button:hover{
+    height: 60px;
+    width: 320px;
+    border: 1px solid grey;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+

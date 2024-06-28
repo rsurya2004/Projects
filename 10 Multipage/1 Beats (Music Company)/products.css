@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0.4%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(16, 15, 15);
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 70px 175px;
+    background-color: rgb(22, 22, 22);
+    width: 1000px;
+    border-radius: 15px;
+    height: 300px;
+}
+
+.text button{
+    background-color: rgb(18, 17, 17);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text button:hover{
+    height: 55px;
+    width: 160px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+main section{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 40px;
+}
+
+main section div{
+    background-color: rgb(22, 22, 22);
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div{
+    background-color: rgb(22, 22, 22);
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div img{
+    margin-top: -80px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(22, 22, 22);
+}
+
+footer section{
+    padding-top: 15px;
+}
+
+.icons div{
+    display: flex;
+    align-items: center;
+    background-color: rgb(28, 26, 26);
+    height: 60px;
+    border: none;
+    width: 350px;
+    border-radius: 10px;
+}
+
+input{
+    background-color: rgb(28, 26, 26);
+    color: aliceblue;
+    border: none;
+    height: 60px;
+}
+
+.icons div div{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.icons div div img{
+    margin-top: 3px;
+}
+
+.support{
+    width: 150px;
+}
+
