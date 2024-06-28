@@ -1,0 +1,145 @@
+*{
+    margin: 0.4%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(241, 245, 247);
+    overflow: hidden;
+}
+
+
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 50px;
+    height: 60px;
+}
+
+header div{
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    a{
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        font-size: 20px;
+        font-weight: 700;
+        color: #20bc7e;
+        cursor: pointer;
+    }
+}
+
+
+
+
+/* Main */
+main{
+    margin: 80px 10px;
+    display: flex;
+    align-items: center;
+    background-image: url(Assets/stethoscope.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image{
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 50vw;
+
+    .greenBox{
+        height: 400px;
+        margin-left: 135px;
+        margin-top: 20px;
+    }
+
+    .yellowBox{
+        height: 400px;
+        margin-top: -850px;
+        margin-left: 145px;
+        position: relative;
+        z-index: -1;
+    }
+
+    .doctor{
+        height: 600px;
+        margin-top: -990px;
+        margin-left: 110px;
+    }
+}
+
+
+.text{
+    width: 50vw;
+    margin-top: -50px;
+    margin-left: 50px;
+
+    section{
+
+        h1{
+            font-size: 60px;
+            font-weight: 700;
+            padding: 20px 0px;
+        }
+
+        p{
+            color: #7c7c7c;
+            padding: 10px 0px;
+        }
+
+        button{
+            width: 200px;
+            height: 50px;
+            background-color: #20bc7e;
+            color: aliceblue;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 40px;
+            border: #20bc7e;
+        }
+
+        button:hover{
+            cursor: pointer;
+            border: 2px solid #20bc7e;
+            color: #20bc7e;
+            background-color: aliceblue;
+        }
+    }
+}
+
+.topAngle{
+    height: 30px;
+    margin-top: -440px;
+    margin-left: -30px ;
+    position: absolute;
+}
+
+.bottomAngle{
+    height: 30px;
+    margin-left: 570px;
+    margin-top: -70px;
+    position: absolute;
+}
+
+.mouse{
+    margin-left: 630px;
+    margin-top: -50px;
+    position: absolute;
+}

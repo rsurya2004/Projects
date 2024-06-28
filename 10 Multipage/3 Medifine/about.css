@@ -1,0 +1,105 @@
+*{
+    margin: 0.4%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(241, 245, 247);
+    overflow: hidden;
+}
+
+
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+    height: 60px;
+}
+
+header div{
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    a{
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        font-size: 20px;
+        font-weight: 700;
+        color: #20bc7e;
+        cursor: pointer;
+    }
+}
+
+
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    justify-content: space-around;
+
+    h1{
+        color: #20bc7e;
+        font-size: 40px;
+        font-weight: 700;
+        width: 800px;
+        display: flex;
+        justify-content: center;
+    }
+
+    p{
+        color: black;
+        width: 800px;
+        font-size: px;
+        font-weight: 600;
+    }
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.box1, .box2, .box3{
+    height: 150px;
+    width: 250px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+
+    box-shadow: 0px 0px 10px 1px black ;
+    /* Horizontal, Vertical, Height, Distance */
+}
+
