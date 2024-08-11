@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highlight Text</title>
+
+</head>
+<body>
+    
+    <p id="text">India is the best example of Unity in Diversity. It is spread from Jammu and Kashmir in the north to KanniyaKumari in the south, and from Rajasthan in the west to Arunachal Pradesh in the east. </p>
+
+
+    <script>
+
+        // Highlight using DOM, having character length atleast 8, with yellow bgc
+
+        let paragraph = document.getElementById("text");
+
+        // Splitting into individual words
+        let word = paragraph.innerText.split(" ");
+
+        document.addEventListener("mouseenter", textHighlight);
+
+
+        function textHighlight(){
+
+            // Iterate for each word
+            word = word.map(word => {
+
+                if(word.length >= 8){
+                    return '<span style="background-color: yellow;">' + word + '</span>'; 
+                }
+                return word;
+            })
+
+            // Join the words back into a string and set the innerHTML of the paragraph
+            paragraph.innerHTML = word.join(" ");
+           
+        }
+
+    </script>
+
+
+</body>
+</html>
